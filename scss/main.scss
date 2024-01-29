@@ -1,0 +1,109 @@
+/* manrope-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v15-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@import "./vendors/normalize";
+@import "./abstracts/variables";
+@import "./base/typography";
+@import "./base/reset";
+@import "./components/button";
+@import "./components/modal";
+@import "./layout/header";
+@import "./layout/aside";
+@import "./pages/home";
+@import "./layout/footer";
+@import "./pages/checkout";
+@import "./pages/_home";
+@import "./pages/detail";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-1 {
+  width: 100%;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+:root {
+  --heading-font-family: "Manrope", serif;
+  --orange: #d87d4a;
+  --pale-black: #101010;
+  --odd-white: #f1f1f1;
+  --light-white: #fafafa;
+  --pink: #fbaf85;
+  --white: #ffffff;
+  --black: #000000;
+  --black-grey: #0e0e0e;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 58px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 33px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 24px;
+}

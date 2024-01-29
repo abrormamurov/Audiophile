@@ -1,0 +1,45 @@
+.header {
+  width: 1440px;
+  height: 97px;
+  flex-shrink: 0;
+  background-color: var(--black-grey);
+}
+
+.header__list {
+  color: var(--white);
+  font-family: var(--heading-font-family);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 192.308% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.header__list-1 {
+  display: flex;
+  padding-top: 32px;
+}
+
+.sitenav__list {
+  display: flex;
+  gap: 34px;
+  padding-left: 197px;
+}
+
+.header__img {
+  display: flex;
+}
+
+.header__logo {
+  padding-left: 200px;
+}
+
+.header-end {
+  width: 1110px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.2;
+  background-color: var(--white);
+  margin-top: 33px;
+}
